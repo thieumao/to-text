@@ -35,10 +35,6 @@ const Home: NextPage = () => {
           Get started by editing <code className={styles.code}>pages/index.tsx</code>
         </p>
 
-        <Link href={'./about'}>
-          <a>Go to About page</a>
-        </Link>
-
         <button onClick={goToPostDetailPage}>Go to Post Detail page</button>
 
         <div className={styles.grid}>
@@ -65,6 +61,12 @@ const Home: NextPage = () => {
             <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
           </a>
         </div>
+
+        <div style={{ marginTop: '2000px' }}></div>
+
+        <Link href={'./about'}>
+          <a>Go to About page</a>
+        </Link>
       </main>
 
       <footer className={styles.footer}>
